@@ -25,7 +25,6 @@ solemne_so_equipo6/
 │   ├── concurrente.py
 │   └── gestor_cierre.py
 ├── evidencias/
-├── generador.py
 └── README.md
 ```
 
