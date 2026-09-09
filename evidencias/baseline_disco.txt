@@ -1,0 +1,10 @@
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           393M  1.2M  391M   1% /run
+/dev/sda1        19G  5.3G   13G  30% /
+tmpfs           2.0G   16K  2.0G   1% /dev/shm
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           2.0G   16K  2.0G   1% /tmp
+tmpfs           393M  4.1M  389M   2% /run/user/1000
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty3.service

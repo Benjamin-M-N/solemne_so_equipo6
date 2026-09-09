@@ -1,0 +1,11 @@
+ventas_sucursal_003.csv;12;Cantidad debe ser mayor a 0;V011;2026-09-03;P9997;HOGAR;-5;2500;EFECTIVO
+ventas_sucursal_007.csv;12;Formato de fecha incorrecto;V011;02-09-2026;P9999;ALIMENTOS;3;1000;EFECTIVO
+ventas_sucursal_007.csv;13;Categoria invalida (JUGUETES);V012;2026-09-03;P9998;JUGUETES;2;1500;TARJETA
+ventas_sucursal_011.csv;12;Formato de fecha incorrecto;V011;02-09-2026;P9999;ALIMENTOS;3;1000;EFECTIVO
+ventas_sucursal_011.csv;13;Cantidad debe ser mayor a 0;V012;2026-09-03;P9997;HOGAR;-5;2500;EFECTIVO
+ventas_sucursal_011.csv;14;Medio de pago invalido (CHEQUE);V013;2026-09-04;P9996;VESTUARIO;1;3000;CHEQUE
+ventas_sucursal_014.csv;12;Medio de pago invalido (CHEQUE);V011;2026-09-04;P9996;VESTUARIO;1;3000;CHEQUE
+ventas_sucursal_018.csv;12;Precio no es un entero;V011;2026-09-05;P9994;TECNOLOGIA;1;abc;TARJETA
+ventas_sucursal_018.csv;13;Categoria invalida (JUGUETES);V012;2026-09-03;P9998;JUGUETES;2;1500;TARJETA
+ventas_sucursal_020.csv;12;Numero incorrecto de campos;V011;2026-09-04;P9995;HOGAR;2
+ventas_sucursal_020.csv;13;Categoria invalida (JUGUETES);V012;2026-09-03;P9998;JUGUETES;2;1500;TARJETA

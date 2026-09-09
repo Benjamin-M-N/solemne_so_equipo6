@@ -1,0 +1,11 @@
+REPORTE DE VENTAS POR SUCURSAL
+Archivo procesado: ventas_sucursal_006.csv
+Sucursal: 006
+Registros leidos: 10
+Registros validos: 10
+Registros invalidos: 0
+Unidades vendidas: 55
+Monto total vendido: $2,832,271
+Categoria con mayor venta: ALIMENTOS
+Medio de pago mas utilizado: TARJETA
+Producto mas vendido: P4324

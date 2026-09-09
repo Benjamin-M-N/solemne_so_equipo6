@@ -1,0 +1,12 @@
+REPORTE CONSOLIDADO DE VENTAS
+Version ejecutada: secuencial
+Archivos procesados: 20
+Registros leidos: 211
+Registros validos: 200
+Registros invalidos: 11
+Unidades vendidas: 1015
+Monto total vendido: $88,108,459
+Categoria con mayor monto acumulado: HOGAR
+Medio de pago mas utilizado: EFECTIVO
+Tiempo total de ejecucion: 0.0118 segundos
+Cantidad de trabajadores: 1

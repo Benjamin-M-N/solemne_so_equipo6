@@ -1,0 +1,5 @@
+[secuencial] archivos procesados: 20
+[secuencial] registros validos: 200 | invalidos: 11
+[secuencial] unidades vendidas: 1015
+[secuencial] monto total vendido: $88,108,459
+[secuencial] tiempo total: 0.0118 s
