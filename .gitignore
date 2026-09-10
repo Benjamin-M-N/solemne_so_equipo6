@@ -3,6 +3,5 @@ salida/
 errores/
 logs/
 cierre_comercial/
-evidencias/
 __pycache__/
 *.pyc
