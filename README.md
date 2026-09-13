@@ -13,7 +13,7 @@ Benjamín Morales, Lucas Rivas.
 | Hipervisor | Oracle VirtualBox |
 | Imagen | debian-13.6.0-amd64-netinst.iso (Debian 13 "trixie", 64 bits) |
 | RAM | 4 GB |
-| Procesadores virtuales | 2-4 vCPU |
+| Procesadores virtuales | 2 vCPU |
 | Disco virtual | 25 GB |
 | Red | NAT con conectividad |
 
@@ -204,7 +204,8 @@ ejecución anterior.
       `stat logs/cierre_comercial.log` tomadas durante o justo después de la
       ejecución concurrente (`evidencias/evidencias_procesos/`).
 - [x] Informe final (Word/PDF, 12 páginas) con las capturas anteriores
-      insertadas y el análisis técnico correspondiente
-      (`lo que ya tenemos como grupo/Informe Final - Solemne 01 Parte 2.docx`).
+      insertadas y el análisis técnico correspondiente. Se entrega por
+      separado en la plataforma del curso, no está incluido en este
+      repositorio.
 - [x] Repositorio/carpeta de entrega con código, `entrada/`, reportes,
       consolidado, inventario, bitácora y este README.
