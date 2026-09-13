@@ -1,0 +1,29 @@
+[2026-09-13 16:55:19] [INFO] === Inicio del cierre comercial ===
+[2026-09-13 16:55:19] [INFO] Prueba de manejo de error controlado: se intentara leer un archivo inexistente.
+[2026-09-13 16:55:19] [ERROR] Error controlado capturado: no existe reporte_ventas_sucursal_999.txt. El gestor continua sin interrumpirse.
+[2026-09-13 16:55:19] [INFO] Reportes individuales detectados: 20
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_001.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_001.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_002.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_002.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_003.txt -> cierre_comercial/observados/reporte_ventas_sucursal_003.txt (registros invalidos: 1)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_004.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_004.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_005.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_005.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_006.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_006.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_007.txt -> cierre_comercial/observados/reporte_ventas_sucursal_007.txt (registros invalidos: 2)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_008.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_008.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_009.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_009.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_010.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_010.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_011.txt -> cierre_comercial/observados/reporte_ventas_sucursal_011.txt (registros invalidos: 3)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_012.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_012.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_013.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_013.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_014.txt -> cierre_comercial/observados/reporte_ventas_sucursal_014.txt (registros invalidos: 1)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_015.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_015.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_016.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_016.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_017.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_017.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_018.txt -> cierre_comercial/observados/reporte_ventas_sucursal_018.txt (registros invalidos: 2)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_019.txt -> cierre_comercial/aprobados/reporte_ventas_sucursal_019.txt (registros invalidos: 0)
+[2026-09-13 16:55:19] [INFO] MOVER reporte_ventas_sucursal_020.txt -> cierre_comercial/observados/reporte_ventas_sucursal_020.txt (registros invalidos: 2)
+[2026-09-13 16:55:19] [INFO] COPIAR consolidado_ventas.txt -> cierre_comercial/respaldos/consolidado_ventas.txt (original intacto en salida/)
+[2026-09-13 16:55:19] [INFO] Inventario generado con 21 registros en cierre_comercial/inventario_cierre.csv
+[2026-09-13 16:55:19] [INFO] Archivo de registros invalidos presente: errores/registros_invalidos.txt
+[2026-09-13 16:55:19] [INFO] Resumen: aprobados=14, observados=6, respaldos=1, colisiones=0, errores registrados=0
+[2026-09-13 16:55:19] [INFO] === Fin del cierre comercial ===

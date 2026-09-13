@@ -1,0 +1,11 @@
+REPORTE DE VENTAS POR SUCURSAL
+Archivo procesado: ventas_sucursal_003.csv
+Sucursal: 003
+Registros leidos: 11
+Registros validos: 10
+Registros invalidos: 1
+Unidades vendidas: 50
+Monto total vendido: $4,848,382
+Categoria con mayor venta: HOGAR
+Medio de pago mas utilizado: EFECTIVO
+Producto mas vendido: P4626

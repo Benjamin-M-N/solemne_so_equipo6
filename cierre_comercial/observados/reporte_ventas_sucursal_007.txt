@@ -1,0 +1,11 @@
+REPORTE DE VENTAS POR SUCURSAL
+Archivo procesado: ventas_sucursal_007.csv
+Sucursal: 007
+Registros leidos: 12
+Registros validos: 10
+Registros invalidos: 2
+Unidades vendidas: 48
+Monto total vendido: $5,133,313
+Categoria con mayor venta: VESTUARIO
+Medio de pago mas utilizado: EFECTIVO
+Producto mas vendido: P3140

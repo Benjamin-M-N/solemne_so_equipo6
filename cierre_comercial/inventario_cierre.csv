@@ -1,0 +1,22 @@
+nombre_archivo;tipo_reporte;sucursal;estado;tamano_bytes;fecha_modificacion;ruta_final
+reporte_ventas_sucursal_001.txt;individual;001;aprobado;311;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_001.txt
+reporte_ventas_sucursal_002.txt;individual;002;aprobado;311;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_002.txt
+reporte_ventas_sucursal_003.txt;individual;003;observado;307;2026-09-13 16:55:19;cierre_comercial/observados/reporte_ventas_sucursal_003.txt
+reporte_ventas_sucursal_004.txt;individual;004;aprobado;307;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_004.txt
+reporte_ventas_sucursal_005.txt;individual;005;aprobado;316;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_005.txt
+reporte_ventas_sucursal_006.txt;individual;006;aprobado;310;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_006.txt
+reporte_ventas_sucursal_007.txt;individual;007;observado;311;2026-09-13 16:55:19;cierre_comercial/observados/reporte_ventas_sucursal_007.txt
+reporte_ventas_sucursal_008.txt;individual;008;aprobado;306;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_008.txt
+reporte_ventas_sucursal_009.txt;individual;009;aprobado;307;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_009.txt
+reporte_ventas_sucursal_010.txt;individual;010;aprobado;310;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_010.txt
+reporte_ventas_sucursal_011.txt;individual;011;observado;310;2026-09-13 16:55:19;cierre_comercial/observados/reporte_ventas_sucursal_011.txt
+reporte_ventas_sucursal_012.txt;individual;012;aprobado;311;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_012.txt
+reporte_ventas_sucursal_013.txt;individual;013;aprobado;311;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_013.txt
+reporte_ventas_sucursal_014.txt;individual;014;observado;312;2026-09-13 16:55:19;cierre_comercial/observados/reporte_ventas_sucursal_014.txt
+reporte_ventas_sucursal_015.txt;individual;015;aprobado;312;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_015.txt
+reporte_ventas_sucursal_016.txt;individual;016;aprobado;316;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_016.txt
+reporte_ventas_sucursal_017.txt;individual;017;aprobado;311;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_017.txt
+reporte_ventas_sucursal_018.txt;individual;018;observado;317;2026-09-13 16:55:19;cierre_comercial/observados/reporte_ventas_sucursal_018.txt
+reporte_ventas_sucursal_019.txt;individual;019;aprobado;312;2026-09-13 16:55:19;cierre_comercial/aprobados/reporte_ventas_sucursal_019.txt
+reporte_ventas_sucursal_020.txt;individual;020;observado;311;2026-09-13 16:55:19;cierre_comercial/observados/reporte_ventas_sucursal_020.txt
+consolidado_ventas.txt;consolidado;GLOBAL;respaldo;363;2026-09-13 16:55:19;cierre_comercial/respaldos/consolidado_ventas.txt

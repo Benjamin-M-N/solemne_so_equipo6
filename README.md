@@ -3,6 +3,30 @@
 Sistemas Operativos NRC-14749 · Profesor René Galarce Godoy
 Lenguaje: Python 3 · Sistema: Debian 13 "trixie" 64 bits sobre VirtualBox
 
+Integrantes: Natalie Roa, Martin Pavie, Máximo Inostroza, Kevin Lener,
+Benjamín Morales, Lucas Rivas.
+
+## Instalación y configuración de la VM
+
+| Recurso | Valor |
+|---|---|
+| Hipervisor | Oracle VirtualBox |
+| Imagen | debian-13.6.0-amd64-netinst.iso (Debian 13 "trixie", 64 bits) |
+| RAM | 4 GB |
+| Procesadores virtuales | 2-4 vCPU |
+| Disco virtual | 25 GB |
+| Red | NAT con conectividad |
+
+Verificación posterior a la instalación, ejecutada dentro de la VM:
+
+```bash
+cat /etc/os-release
+lscpu
+free -h
+df -h
+ip a
+```
+
 ## Estructura
 
 ```
@@ -43,10 +67,13 @@ No se usan dependencias externas: todo es biblioteca estándar de Python
 
 Todos los comandos se ejecutan desde la raíz del proyecto.
 
+Copie el proyecto completo a `~/solemne_so_equipo6/` dentro de la VM antes de
+continuar.
+
 ### 1. Generar los datos de entrada
 
 ```bash
-python3 generador.py
+python3 src/generador.py
 ```
 
 Usa la semilla fija `20260909`, por lo que los 20 archivos son idénticos en
@@ -97,7 +124,7 @@ Para partir de cero:
 
 ```bash
 rm -rf cierre_comercial logs salida errores
-python3 generador.py && python3 src/concurrente.py && python3 src/gestor_cierre.py
+python3 src/generador.py && python3 src/concurrente.py && python3 src/gestor_cierre.py
 ```
 
 ## Verificación del resultado
@@ -156,3 +183,28 @@ ejecución anterior.
   precaución).
 - Destino fuera del árbol `cierre_comercial/`.
 - Fallos de E/S al mover, copiar o escribir el inventario.
+
+## Checklist de entrega final
+
+- [x] VM Debian 13 instalada y accesible, con capturas de instalación
+      (particionado, usuario, primer inicio) y de la configuración de recursos
+      en el hipervisor (`evidencias/evidencias_instalacion_debian/`).
+- [x] `python3 --version` y paquetes del punto "Requisitos" verificados en la
+      VM (no en el equipo local de desarrollo).
+- [x] `src/secuencial.py` y `src/concurrente.py` ejecutados en Debian; las 5
+      métricas de negocio coinciden entre ambas versiones (solo varía el
+      tiempo de ejecución, que puede ser mayor o menor en la concurrente
+      dependiendo del volumen de datos y la sobrecarga de sincronización de
+      los hilos).
+- [x] `src/gestor_cierre.py` ejecutado en Debian, con 14 reportes en
+      `aprobados/`, 6 en `observados/`, 1 respaldo y 21 filas + cabecera en
+      `inventario_cierre.csv`.
+- [x] Capturas de `ps -eo pid,ppid,stat,%cpu,%mem,rss,vsz,cmd`, `pstree -p`,
+      `free -h`, `df -h`, `du -sh ~/solemne_so_equipo6`, `find`, `ls -lah` y
+      `stat logs/cierre_comercial.log` tomadas durante o justo después de la
+      ejecución concurrente (`evidencias/evidencias_procesos/`).
+- [x] Informe final (Word/PDF, 12 páginas) con las capturas anteriores
+      insertadas y el análisis técnico correspondiente
+      (`lo que ya tenemos como grupo/Informe Final - Solemne 01 Parte 2.docx`).
+- [x] Repositorio/carpeta de entrega con código, `entrada/`, reportes,
+      consolidado, inventario, bitácora y este README.

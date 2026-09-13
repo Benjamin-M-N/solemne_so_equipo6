@@ -1,0 +1,11 @@
+REPORTE DE VENTAS POR SUCURSAL
+Archivo procesado: ventas_sucursal_012.csv
+Sucursal: 012
+Registros leidos: 10
+Registros validos: 10
+Registros invalidos: 0
+Unidades vendidas: 51
+Monto total vendido: $5,937,569
+Categoria con mayor venta: TECNOLOGIA
+Medio de pago mas utilizado: TARJETA
+Producto mas vendido: P3712
