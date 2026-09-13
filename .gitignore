@@ -1,7 +1,2 @@
-entrada/
-salida/
-errores/
-logs/
-cierre_comercial/
 __pycache__/
 *.pyc

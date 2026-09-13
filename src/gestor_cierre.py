@@ -168,7 +168,7 @@ def extraer_sucursal(nombre):
     return coincidencia.group(1) if coincidencia else "SIN_ID"
 
 
-def fila_inventario(ruta_final, nombre_original, tipo, sucursal, estado):
+def fila_inventario(ruta_final, tipo, sucursal, estado):
     info = ruta_final.stat()
     return {
         "nombre_archivo": ruta_final.name,
@@ -235,7 +235,7 @@ def clasificar_reportes():
             f"MOVER {ruta.name} -> {destino.relative_to(RAIZ)} "
             f"(registros invalidos: {invalidos if invalidos >= 0 else 'indeterminado'})"
         )
-        filas.append(fila_inventario(destino, ruta.name, "individual", sucursal, estado))
+        filas.append(fila_inventario(destino, "individual", sucursal, estado))
 
     return filas
 
@@ -268,7 +268,7 @@ def respaldar_consolidado():
         log_info(f"COPIAR {origen.name} -> {destino.relative_to(RAIZ)} (original intacto en salida/)")
 
     resumen["respaldos"] += 1
-    filas.append(fila_inventario(destino, origen.name, "consolidado", "GLOBAL", "respaldo"))
+    filas.append(fila_inventario(destino, "consolidado", "GLOBAL", "respaldo"))
     return filas
 
 

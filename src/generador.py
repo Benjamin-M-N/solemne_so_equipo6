@@ -16,11 +16,11 @@ import random
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# La carpeta entrada/ se crea siempre junto a este archivo, sin importar
-# desde que directorio se invoque python3 generador.py. Antes usaba la ruta
-# relativa "entrada", que dependia del directorio de trabajo: si se ejecutaba
-# desde src/ el script creaba src/entrada/ por error.
-RAIZ = Path(__file__).resolve().parent
+# La carpeta entrada/ se crea siempre en la raiz del proyecto, sin importar
+# desde que directorio se invoque el script. El archivo vive en src/, por lo
+# que hace falta subir dos niveles (src/ -> raiz); con un solo .parent el
+# script crea src/entrada/ por error en vez de entrada/.
+RAIZ = Path(__file__).resolve().parent.parent
 ENTRADA = RAIZ / "entrada"
 
 # Semilla fija: la entrega debe ser reproducible (README con pasos repetibles).
